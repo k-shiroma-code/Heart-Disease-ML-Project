@@ -43,3 +43,11 @@ In this project, we perform the following steps:
 - scikit-learn
 - matplotlib
 - seaborn
+
+Link to dataset [Heart Disease Dataset page](https://archive.ics.uci.edu/dataset/45/heart+disease).
+
+## License
+
+This dataset is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+
+This project itself is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
