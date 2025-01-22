@@ -44,7 +44,7 @@ Steps to achieve project outcome
 - matplotlib
 - seaborn
 
-## Summary
+## Summary & Findings
 The project successfully built and optimized a Random Forest Classifier for heart disease prediction using the Cleveland Heart Disease Database. The model achieved 90% accuracy and provided insights into the most significant features influencing heart disease, such as Coronary Artery Disease and Chest Pain Type. The balanced performance across both classes (heart disease vs. no disease) and the model’s high precision, recall, and F1-score demonstrate its effectiveness for real-world heart disease prediction.
 
 Link to dataset [Heart Disease Dataset page](https://archive.ics.uci.edu/dataset/45/heart+disease).
