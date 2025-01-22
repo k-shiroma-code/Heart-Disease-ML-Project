@@ -27,7 +27,7 @@ The dataset contains medical records of patients with different attributes relat
 
 ## Project Description
 
-In this project, we perform the following steps:
+Steps to achieve project outcome
 
 1. **Data Loading:** Load and preprocess the Cleveland dataset.
 2. **Exploratory Data Analysis (EDA):** Visualize the relationships between features and the target variable.
