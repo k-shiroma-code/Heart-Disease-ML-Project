@@ -1,1 +1,1 @@
-# Heart_Disease-EDA
+# Heart_Disease-Prediction
