@@ -1,48 +1,67 @@
-#  Cardiovascular_Disease-Prediction
+# Heart Disease Dataset Analysis
 
-This project predicts the presence of Cardiovascular disease using machine learning techniques on the Cleveland heart disease dataset. The dataset contains multiple attributes, including features like age, cholesterol, resting blood pressure, and maximum heart rate achieved.
+This project explores the UCI Heart Disease dataset, focusing on data preprocessing, visualization, and handling class imbalance using techniques like SMOTE and random undersampling.
 
-## Dataset Overview
+## 📂 Dataset
 
-The dataset contains medical records of patients with different attributes related to Cardiovascular disease, which is classified into four categories:
+- **Source**: UCI Machine Learning Repository  
+- **Dataset Name**: Heart Disease (ID: 45)  
+- **Features**: Age, sex, chest pain type, blood pressure, cholesterol, fasting blood sugar, ECG results, max heart rate, exercise-induced angina, oldpeak, slope, number of vessels colored, thalassemia  
+- **Target**: `num` (presence of heart disease)
 
-- **Goal (Target Variable):**
-  - 0: No presence of Cardiovascular disease
-  - 1, 2, 3, 4: Presence of Cardiovascular disease (varying severity)
+## 🛠️ Tools and Libraries
 
-- **Features:**
-  - Age
-  - Sex
-  - Chest pain type
-  - Resting blood pressure
-  - Serum cholesterol
-  - Fasting blood sugar
-  - Electrocardiographic results
-  - Maximum heart rate achieved
-  - Exercise-induced angina
-  - ST depression induced by exercise
-  - Slope of the peak exercise ST segment
-  - Number of major vessels colored by fluoroscopy
-  - Thalassemia (a blood disorder)
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Scikit-learn
+- imbalanced-learn (`SMOTE`, `RandomUnderSampler`)
+- ucimlrepo (for loading the dataset)
 
-## Project Description
+## 📊 Visualizations
 
-Steps to achieve project outcome
+- Age distribution
+- Age distribution by heart disease status
+- Sex distribution
+- Class distribution of target variable
+- Histograms of numerical features
 
-1. **Data Loading:** Load and preprocess the Cleveland dataset.
-2. **Exploratory Data Analysis (EDA):** Visualize the relationships between features and the target variable.
-3. **Data Preprocessing:** Handle missing values and convert categorical features to numeric.
+## 🔄 Preprocessing
 
-## Technologies Used
+- Imputation of missing numerical values (mean strategy)
+- Imputation of missing categorical values (most frequent strategy)
+- Class balancing:
+  - **SMOTE**: Oversampling the minority class
+  - **Random Undersampling**: Reducing the majority class
 
-- Python
-- pandas
-- numpy
-- matplotlib
-- seaborn
+## 🧪 Modeling (optional section if you add ML later)
 
-Link to dataset [Heart Disease Dataset page](https://archive.ics.uci.edu/dataset/45/heart+disease).
+You can include classifiers like Logistic Regression, Random Forest, etc., to predict heart disease presence.
 
-## License
+## 📁 Project Structure
 
-This dataset is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+```
+heart-disease-analysis/
+│
+├── heart_disease_analysis.ipynb
+├── README.md
+├── requirements.txt (optional)
+```
+
+## 🚀 How to Run
+
+1. Clone the repository
+2. Set up a virtual environment (optional but recommended)
+3. Install dependencies:  
+   ```
+   pip install -r requirements.txt
+   ```
+4. Run the notebook:  
+   Open `heart_disease_analysis.ipynb` in JupyterLab or VS Code.
+
+## 📌 Notes
+
+- The target `num` is binarized (0 = no disease, 1 = disease).
+- Dataset contains some categorical columns represented as `object` and needs conversion if used in modeling.
+
+## 📚 References
+
+- [UCI ML Repository - Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+Disease)
