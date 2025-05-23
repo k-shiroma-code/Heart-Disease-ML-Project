@@ -61,8 +61,6 @@ The following visualizations were created to explore the dataset:
 
 ## Machine Learning Models
 
-*Included in separate notebook or for future work*:
-
 - **Models Evaluated**:
   - Logistic Regression
   - XGBoost Classifier (tested)
@@ -117,8 +115,6 @@ jupyter notebook heart_disease_analysis.ipynb
 ---
 
 ## Requirements
-
-Here’s a sample `requirements.txt` you can include:
 
 ```
 pandas
