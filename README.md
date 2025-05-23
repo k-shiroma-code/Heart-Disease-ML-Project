@@ -65,7 +65,7 @@ The following visualizations were created to explore the dataset:
 
 - **Models Evaluated**:
   - Logistic Regression
-  - XGBoost Classifier
+  - XGBoost Classifier (tested)
 - **Evaluation Metrics**:
   - Accuracy
   - Precision, Recall, F1-score
