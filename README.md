@@ -1,4 +1,4 @@
-# 🫀 Heart Disease Dataset Analysis
+# Heart Disease Dataset Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
@@ -8,7 +8,7 @@ This project analyzes the UCI Heart Disease dataset, focusing on preprocessing, 
 
 ---
 
-## 📂 Dataset Overview
+## Dataset Overview
 
 - **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/heart+Disease)
 - **Dataset ID**: 45  
@@ -22,7 +22,7 @@ This project analyzes the UCI Heart Disease dataset, focusing on preprocessing, 
 
 ---
 
-## 🛠️ Tools and Libraries Used
+## Tools and Libraries Used
 
 - **Language**: Python
 - **Libraries**:
@@ -34,19 +34,19 @@ This project analyzes the UCI Heart Disease dataset, focusing on preprocessing, 
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The following visualizations were created to explore the dataset:
 
-- 🔹 Age distribution
-- 🔹 Age vs heart disease presence
-- 🔹 Sex distribution by target
-- 🔹 Histogram plots for continuous variables
-- 🔹 Target class imbalance
+- Age distribution
+- Age vs heart disease presence
+- Sex distribution by target
+- Histogram plots for continuous variables
+- Target class imbalance
 
 ---
 
-## 🔄 Data Preprocessing
+## Data Preprocessing
 
 - **Missing Data Handling**:
   - Numerical: filled with column mean
@@ -59,7 +59,7 @@ The following visualizations were created to explore the dataset:
 
 ---
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 *Included in separate notebook or for future work*:
 
@@ -75,7 +75,7 @@ The following visualizations were created to explore the dataset:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 heart-disease-analysis/
@@ -86,7 +86,7 @@ heart-disease-analysis/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -116,7 +116,7 @@ jupyter notebook heart_disease_analysis.ipynb
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Here’s a sample `requirements.txt` you can include:
 
@@ -133,7 +133,7 @@ ucimlrepo
 
 ---
 
-## 📌 Notes
+## Notes
 
 - The `num` column has been binarized for binary classification.
 - Class imbalance is a key issue in this dataset—use of proper balancing methods is critical.
