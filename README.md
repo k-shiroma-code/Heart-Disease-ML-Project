@@ -1,9 +1,5 @@
 # Heart Disease Dataset Analysis
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
-![License: MIT](https://img.shields.io/badge/License-MIT-green)
-
 This project analyzes the UCI Heart Disease dataset, focusing on preprocessing, exploratory data analysis (EDA), and addressing class imbalance with techniques like SMOTE and random undersampling. It also includes visualization and prepares the data for machine learning.
 
 ---
