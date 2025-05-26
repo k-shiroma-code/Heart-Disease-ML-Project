@@ -1,6 +1,6 @@
 # Heart Disease Dataset Analysis
 
-This project analyzes the UCI Heart Disease dataset, focusing on preprocessing, exploratory data analysis (EDA), and addressing class imbalance with techniques like SMOTE and random undersampling. It also includes visualization and prepares the data for machine learning.
+This project explores heart disease prediction using the UCI dataset, focusing on preprocessing, class imbalance correction, and model evaluation to improve predictive accuracy.
 
 ---
 
@@ -20,7 +20,7 @@ This project analyzes the UCI Heart Disease dataset, focusing on preprocessing, 
 
 ## Tools and Libraries Used
 
-- **Language**: Python
+- **Language**: Python  
 - **Libraries**:
   - Data Handling: `pandas`, `numpy`
   - Visualization: `matplotlib`, `seaborn`
@@ -34,61 +34,42 @@ This project analyzes the UCI Heart Disease dataset, focusing on preprocessing, 
 
 The following visualizations were created to explore the dataset:
 
-- Age distribution
-- Age vs heart disease presence
-- Sex distribution by target
-- Histogram plots for continuous variables
-- Target class imbalance
+- Age distribution  
+- Age vs heart disease presence  
+- Sex distribution by target  
+- Histogram plots for continuous variables  
+- Target class imbalance  
 
 ---
 
 ## Data Preprocessing
 
 - **Missing Data Handling**:
-  - Numerical: filled with column mean
-  - Categorical: filled with most frequent category
+  - Numerical: filled with column mean  
+  - Categorical: filled with most frequent category  
 - **Encoding**:
-  - Categorical variables converted to numerical values
+  - Categorical variables converted to numerical values  
 - **Class Balancing**:
-  - **SMOTE**: Oversamples minority class
-  - **Random Undersampling**: Reduces majority class
+  - **SMOTE**: Oversamples minority class  
+  - **Random Undersampling**: Reduces majority class  
 
 ---
 
 ## Machine Learning Models
 
 - **Models Evaluated**:
-  - Logistic Regression
-  - XGBoost Classifier (tested)
+  - Logistic Regression  
+  - XGBoost Classifier (tested)  
 - **Evaluation Metrics**:
-  - Accuracy
-  - Precision, Recall, F1-score
-  - Confusion Matrix
+  - Accuracy  
+  - Precision, Recall, F1-score  
+  - Confusion Matrix  
 - **Key Insight**:
-  - SMOTE + Logistic Regression improved minority class recall by 20%.
+  - SMOTE + Logistic Regression improved minority class recall by **20%**.  
 
 ---
 
 ## Requirements
 
-```
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-imbalanced-learn
-xgboost
-ucimlrepo
-```
-
----
-
-
-
-## 📚 References
-
-- [UCI Machine Learning Repository - Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+Disease)
-- [imbalanced-learn Documentation](https://imbalanced-learn.org/stable/)
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
-- [XGBoost Documentation](https://xgboost.readthedocs.io/)
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost ucimlrepo
