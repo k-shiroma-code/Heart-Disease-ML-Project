@@ -73,47 +73,6 @@ The following visualizations were created to explore the dataset:
 
 ---
 
-## Project Structure
-
-```
-heart-disease-analysis/
-├── heart_disease_analysis.ipynb
-├── README.md
-├── requirements.txt
-```
-
----
-
-## Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/k-shiroma-code/Heart_Disease_Repo.git
-cd Heart_Disease_Repo
-```
-
-### 2. (Optional) Create a virtual environment
-
-```bash
-python -m venv venv
-source venv/bin/activate     # On Windows: venv\Scripts\activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the notebook
-
-```bash
-jupyter notebook heart_disease_analysis.ipynb
-```
-
----
-
 ## Requirements
 
 ```
@@ -129,13 +88,7 @@ ucimlrepo
 
 ---
 
-## Notes
 
-- The `num` column has been binarized for binary classification.
-- Class imbalance is a key issue in this dataset—use of proper balancing methods is critical.
-- Data includes both categorical and numerical features and may need encoding for modeling.
-
----
 
 ## 📚 References
 
