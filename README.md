@@ -1,75 +1,77 @@
-# Heart Disease Dataset Analysis
+# **Heart Disease Dataset Analysis**  
 
-This project explores heart disease prediction using the UCI dataset, focusing on preprocessing, class imbalance correction, and model evaluation to improve predictive accuracy.
-
----
-
-## Dataset Overview
-
-- **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/heart+Disease)
-- **Dataset ID**: 45  
-- **Target Variable**: `num` (binarized: 0 = no disease, 1 = presence of disease)
-- **Features**:
-  - Age, sex, chest pain type
-  - Resting blood pressure, cholesterol
-  - Fasting blood sugar, ECG results
-  - Max heart rate, exercise-induced angina
-  - ST depression (`oldpeak`), slope, number of vessels, thalassemia
+This project explores **heart disease prediction** using the **UCI dataset**, emphasizing **data preprocessing**, **class imbalance correction**, and **model evaluation** to enhance predictive accuracy.  
 
 ---
 
-## Tools and Libraries Used
+## **Dataset Overview**  
 
-- **Language**: Python  
-- **Libraries**:
-  - Data Handling: `pandas`, `numpy`
-  - Visualization: `matplotlib`, `seaborn`
-  - Machine Learning: `scikit-learn`, `xgboost`
-  - Class Imbalance Handling: `imbalanced-learn` (`SMOTE`, `RandomUnderSampler`)
-  - Dataset Access: `ucimlrepo`
-
----
-
-## Exploratory Data Analysis (EDA)
-
-The following visualizations were created to explore the dataset:
-
-- Age distribution  
-- Age vs heart disease presence  
-- Sex distribution by target  
-- Histogram plots for continuous variables  
-- Target class imbalance  
+- **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/heart+Disease)  
+- **Dataset ID**: `45`  
+- **Target Variable**: `num` (binarized: `0` = No disease, `1` = Presence of disease)  
+- **Features**:  
+  - **Demographics**: Age, sex  
+  - **Symptoms**: Chest pain type  
+  - **Clinical Measures**: Resting blood pressure, cholesterol, fasting blood sugar, ECG results, max heart rate, exercise-induced angina  
+  - **Advanced Diagnostics**: ST depression (`oldpeak`), slope, number of major vessels (`ca`), thalassemia  
 
 ---
 
-## Data Preprocessing
+## **Tools & Libraries Used**  
 
-- **Missing Data Handling**:
-  - Numerical: filled with column mean  
-  - Categorical: filled with most frequent category  
-- **Encoding**:
-  - Categorical variables converted to numerical values  
-- **Class Balancing**:
-  - **SMOTE**: Oversamples minority class  
-  - **Random Undersampling**: Reduces majority class  
+- **Programming Language**: Python  
+- **Libraries**:  
+  - **Data Handling**: `pandas`, `numpy`  
+  - **Visualization**: `matplotlib`, `seaborn`  
+  - **Machine Learning**: `scikit-learn`, `xgboost`  
+  - **Class Imbalance Handling**: `imbalanced-learn` (`SMOTE`, `RandomUnderSampler`)  
+  - **Dataset Access**: `ucimlrepo`  
 
 ---
 
-## Machine Learning Models
+## **Exploratory Data Analysis (EDA)**  
 
-- **Models Evaluated**:
+Key visualizations created to assess patterns in the dataset:  
+
+- **Age Distribution**  
+- **Age vs Heart Disease Presence**  
+- **Sex Distribution by Target Variable**  
+- **Histograms of Continuous Features**  
+- **Class Imbalance Check**  
+
+---
+
+## **Data Preprocessing**  
+
+- **Handling Missing Values**:  
+  - **Numerical Features**: Imputed with column mean  
+  - **Categorical Features**: Filled with most frequent category  
+- **Encoding**:  
+  - Converted categorical variables into numerical representations  
+- **Class Balancing**:  
+  - **SMOTE**: Oversampled minority class  
+  - **Random Undersampling**: Reduced majority class  
+
+---
+
+## **Machine Learning Models**  
+
+- **Models Evaluated**:  
   - Logistic Regression  
-  - XGBoost Classifier (tested)  
-- **Evaluation Metrics**:
+  - XGBoost Classifier  
+- **Evaluation Metrics**:  
   - Accuracy  
   - Precision, Recall, F1-score  
   - Confusion Matrix  
-- **Key Insight**:
-  - SMOTE + Logistic Regression improved minority class recall by **20%**.  
+- **Key Insights**:  
+  - **SMOTE + Logistic Regression** improved minority class recall by **20%**.  
+  - **Number of major vessels (`ca`)** was identified as the most influential predictor in classification outcomes.  
 
 ---
 
-## Requirements
+## **Installation Requirements**  
+
+To run this project, install the required dependencies:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost ucimlrepo
