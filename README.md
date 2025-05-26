@@ -58,7 +58,7 @@ Key visualizations created to assess patterns in the dataset:
 
 - **Models Evaluated**:  
   - Logistic Regression  
-  - XGBoost Classifier  
+  - GridSearch CV 
 - **Evaluation Metrics**:  
   - Accuracy  
   - Precision, Recall, F1-score  
