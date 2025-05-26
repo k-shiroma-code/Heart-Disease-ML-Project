@@ -23,7 +23,7 @@ This project explores **heart disease prediction** using the **UCI dataset**, em
 - **Libraries**:  
   - **Data Handling**: `pandas`, `numpy`  
   - **Visualization**: `matplotlib`, `seaborn`  
-  - **Machine Learning**: `scikit-learn`, `xgboost`  
+  - **Machine Learning**: `scikit-learn`  
   - **Class Imbalance Handling**: `imbalanced-learn` (`SMOTE`, `RandomUnderSampler`)  
   - **Dataset Access**: `ucimlrepo`  
 
@@ -69,9 +69,3 @@ Key visualizations created to assess patterns in the dataset:
 
 ---
 
-## **Installation Requirements**  
-
-To run this project, install the required dependencies:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost ucimlrepo
