@@ -1,6 +1,6 @@
 # **Heart Disease Dataset Analysis**  
 
-This project explores **heart disease prediction** using the **UCI dataset**, emphasizing **data preprocessing**, **class imbalance correction**, and **model evaluation** to enhance predictive accuracy.  
+This project explores **heart disease prediction** using the **UCI dataset**, emphasizing **data preprocessing**, **class imbalance correction**, and **model evaluation** to enhance predictive accuracy. Please refer to the heart_disease.ipynb. 
 
 ---
 
